@@ -27,6 +27,14 @@ const priceBreak = [
 // }, 0);
 
 //***** Array Reduce method
-const sortedFare = priceBreak.sort((a, b) => a.fare - b.fare);
+// const sortedFare = priceBreak.sort((a, b) => a.fare - b.fare);
+// console.log(sortedFare);
 
-console.log(sortedFare);
+//***** Array indexOf method
+const arr = [2,3,4,5,6];
+
+if(arr.indexOf(2)!==-1){
+    console.log('Array is found');
+}else{
+    console.log('Array is not found');
+}
