@@ -31,10 +31,23 @@ const priceBreak = [
 // console.log(sortedFare);
 
 //***** Array indexOf method
-const arr = [2,3,4,5,6];
+// const arr = [2,3,4,5,6];
 
-if(arr.indexOf(2)!==-1){
-    console.log('Array is found');
-}else{
-    console.log('Array is not found');
-}
+// if(arr.indexOf(2)!==-1){
+//     console.log('Array is found');
+// }else{
+//     console.log('Array is not found');
+// }
+
+//***** Array unique method
+// const arr = [2,2,3,4,5,4,6];
+
+// const uniqueArr = new Set (arr);
+// console.log([...uniqueArr]);
+
+//***** Array unique method
+const arr = [2, 2, 3, 4, 5, 4, 6];
+
+const newArr = arr.map((item) => item * 2);
+newArr.forEach((a) => console.log(a * 3));
+console.log(newArr);
