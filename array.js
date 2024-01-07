@@ -26,4 +26,7 @@ const priceBreak = [
 //   return acc + curr.fare;
 // }, 0);
 
-console.log(totalFare);
+//***** Array Reduce method
+const sortedFare = priceBreak.sort((a, b) => a.fare - b.fare);
+
+console.log(sortedFare);
