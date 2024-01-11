@@ -46,8 +46,26 @@ const priceBreak = [
 // console.log([...uniqueArr]);
 
 //***** Array unique method
-const arr = [2, 2, 3, 4, 5, 4, 6];
+// const arr = [2, 3, 4, 5, 6];
 
-const newArr = arr.map((item) => item * 2);
-newArr.forEach((a) => console.log(a * 3));
-console.log(newArr);
+// const newArr = arr.map((item) => item * 2);
+// newArr.forEach((a) => console.log(a * 3));
+// console.log(newArr);
+
+// console.log(arr.findIndex((el) => el === 5));
+
+const cmsData = {
+  best_deals_1: "https://api.rtc.flyfarint.com/asset/Admin/CMS/bestDeals1.webp",
+  best_deals_2: "https://api.rtc.flyfarint.com/asset/Admin/CMS/bestDeals2.webp",
+  best_deals_3: "https://api.rtc.flyfarint.com/asset/Admin/CMS/bestDeals3.webp",
+  best_deals_4: "https://api.rtc.flyfarint.com/asset/Admin/CMS/bestDeals4.webp",
+  best_deals_5: "https://api.rtc.flyfarint.com/asset/Admin/CMS/bestDeals5.webp",
+};
+
+const allKeys = Object.keys(cmsData);
+const allValues = Object.values(cmsData);
+
+allValues.map((obj))
+
+console.log(allKeys);
+console.log(allValues);
