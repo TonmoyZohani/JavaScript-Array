@@ -65,7 +65,10 @@ const cmsData = {
 const allKeys = Object.keys(cmsData);
 const allValues = Object.values(cmsData);
 
-allValues.map((obj))
+const allBestDeals = allKeys.filter((obj) => {
+  return obj.includes("best_deals_");
+});
 
-console.log(allKeys);
-console.log(allValues);
+console.log(allBestDeals);
+// console.log(allKeys);
+// console.log(allValues);
